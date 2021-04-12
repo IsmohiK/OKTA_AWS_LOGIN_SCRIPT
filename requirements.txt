@@ -1,8 +1,8 @@
 awscli
 configparser
 requests
-re
-base64
+regex
+pybase64
 boto3
 elementpath
 bs4
