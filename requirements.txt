@@ -1,11 +1,9 @@
 awscli
 configparser
 requests
-json
 re
 base64
 boto3
 elementpath
 bs4
 keyring
-getpass
