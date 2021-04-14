@@ -6,11 +6,17 @@ Python script to access AWS CLI via Okta.
 1. Make sure You have python installed in the system. Install the necessary libraries per requirements.txt 
    (`pip install -r requirements.txt`).
 
-2. Make sure File name : saml-providers.config has below section and content
+2. Make sure File name : saml-providers.config has below section and content inside "/.aws" directory
    ```
   	  [devcoegiscsaml]
       apiUrl = *******************************
       SAMLurl = ******************************
+   ```
+   Make sure File name : config.config has below section and content inside "/.aws" directory
+   ```
+   [dev]
+   region = us-east-1
+   output = json
    ```
 
 3. Navigate to the folder where you have cloned the repo. Example : `C:\\OKTA_AWS_LOGIN_SCRIPT` in cmd.
